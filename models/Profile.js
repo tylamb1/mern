@@ -71,7 +71,7 @@ const ProfileSchema = new Schema({
     },
     {
       to: {
-        type: date
+        type: Date
       }
     },
     {
@@ -114,7 +114,7 @@ const ProfileSchema = new Schema({
     },
     {
       to: {
-        type: date
+        type: Date
       }
     },
     {
@@ -149,7 +149,7 @@ const ProfileSchema = new Schema({
   },
 
   date: {
-    type: date,
+    type: Date,
     default: Date.now
   }
 });
